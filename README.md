@@ -14,11 +14,8 @@ This application is a simple database backed REST inventory management web servi
 ### Business Rules
 
 - Sales tax applies only to the cost of the items.
-- Sales tax does not apply to any processing fees for an invoice.
-- The processing fee is applied only once per order regardless of the number of items in the order unless the number of items on the order is greater than 10 in which case an additional processing fee of $15.49 is applied to the order.
-The order process logic must properly update the quantity on hand for the item in the order.
-Order quantity must be greater than zero.
-Order quantity must be less than or equal to the number of items on hand in inventory.
+- Each item has it's own unique processing fee. Any orders over 10 will have an additional processing fee of $15.49 is applied to the order
+- The order process logic properly updates the quantity so the order quantity must be less than or equal to the number of items on hand in the inventory.
 
 ### Technologies Used
 * Java
