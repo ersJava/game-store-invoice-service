@@ -8,7 +8,7 @@ Please see YAML document for API instructions.
 
 ## Project Details
 
-This application is a simple database backed REST inventory management web service for a Video Game Store. The Game Store Invoice Service is a typical Spring Boot REST web service with controller, DAO (utilizing Jdbc and prepared statements), unit test and service layer components. Exceptions are handled through Controller Advice and return proper HTTP status codes and data when exception occur and violations of business rules. 
+This application is a simple database backed REST inventory management web service for a Video Game Store. The Game Store Invoice Service is a typical Spring Boot REST web service with controller, DAO (utilizing Jdbc template and prepared statements), unit test and service layer components. Exceptions are handled through Controller Advice and return proper HTTP status codes and data when exception occur and violations of business rules. 
 
 
 ### Business Rules
