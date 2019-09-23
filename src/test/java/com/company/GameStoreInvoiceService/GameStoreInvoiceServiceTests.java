@@ -1,4 +1,4 @@
-package com.company.BethSergeantU1Capstone;
+package com.company.GameStoreInvoiceService;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

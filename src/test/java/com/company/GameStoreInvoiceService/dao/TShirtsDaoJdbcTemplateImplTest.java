@@ -1,6 +1,5 @@
-package com.company.BethSergeantU1Capstone.dao;
+package com.company.GameStoreInvoiceService.dao;
 
-import com.company.GameStoreInvoiceService.dao.TShirtDao;
 import com.company.GameStoreInvoiceService.model.TShirts;
 import org.junit.After;
 import org.junit.Before;

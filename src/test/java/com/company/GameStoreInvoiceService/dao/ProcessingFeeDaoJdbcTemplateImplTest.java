@@ -1,6 +1,5 @@
-package com.company.BethSergeantU1Capstone.dao;
+package com.company.GameStoreInvoiceService.dao;
 
-import com.company.GameStoreInvoiceService.dao.ProcessingFeeDao;
 import com.company.GameStoreInvoiceService.model.ProcessingFee;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,8 +1,7 @@
-package com.company.BethSergeantU1Capstone.service;
+package com.company.GameStoreInvoiceService.service;
 
 import com.company.GameStoreInvoiceService.dao.*;
 import com.company.GameStoreInvoiceService.model.*;
-import com.company.GameStoreInvoiceService.service.InvoiceInventoryService;
 import com.company.GameStoreInvoiceService.viewmodel.ConsoleViewModel;
 import com.company.GameStoreInvoiceService.viewmodel.GameViewModel;
 import com.company.GameStoreInvoiceService.viewmodel.InvoiceViewModel;

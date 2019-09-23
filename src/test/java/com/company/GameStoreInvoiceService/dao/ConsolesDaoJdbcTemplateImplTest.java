@@ -1,6 +1,5 @@
-package com.company.BethSergeantU1Capstone.dao;
+package com.company.GameStoreInvoiceService.dao;
 
-import com.company.GameStoreInvoiceService.dao.ConsoleDao;
 import com.company.GameStoreInvoiceService.model.Consoles;
 import org.junit.After;
 import org.junit.Before;
@@ -16,8 +15,8 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-@RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
+@RunWith(SpringJUnit4ClassRunner.class)
 public class ConsolesDaoJdbcTemplateImplTest {
 
     @Autowired
