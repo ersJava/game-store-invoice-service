@@ -4,7 +4,7 @@
 
 A simple service that allows CRUD operations for a video game store inventory system and creates an invoice for the order.
 
-Please see YAML document for API instructions.
+Please see YAML for API documenation.
 
 ## Project Details
 
